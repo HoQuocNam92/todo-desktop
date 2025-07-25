@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 <strong>To-Do App</strong></h1>
+            <button id="toggleMode">🌙 Dark Mode</button>
+        </header>
+
+        <div class="stats">
+            <p>Tổng công việc: <span id="taskCount">0</span></p>
+            <p>Phiên bản: <span id="version">...</span></p>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Nhập công việc..." />
+            <input type="date" id="taskDeadline" />
+            <button id="addTaskBtn">Thêm</button>
+        </div>
+
+        <input type="text" id="searchInput" placeholder="Tìm kiếm..." />
+
+        <ul id="taskList"></ul>
+
+        <div>
+            <button id="clearAllBtn" class="danger">🧹 Xóa tất cả</button>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>

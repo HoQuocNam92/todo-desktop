@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background: #fff;
+    color: #111;
+    margin: 0;
+    padding: 20px;
+}
+
+.dark {
+    background: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button.danger {
+    background: #dc3545;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.task-text {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
