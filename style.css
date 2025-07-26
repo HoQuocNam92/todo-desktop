@@ -59,3 +59,25 @@ li {
     text-decoration: line-through;
     opacity: 0.6;
 }
+
+
+body.dark {
+    background: #1e1e1e;
+    color: white;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+}
